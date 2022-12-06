@@ -1,0 +1,55 @@
+.register {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)), 
+        url("https://lapo.vn/storage/media/j4uRr891BzRIvkU84PjkJBCkaca8NsZdsnmFyEGG.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register-title {
+    font-size: 50px;
+}
+
+.register-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form > label {
+    margin: 10px 0;
+}
+
+.register-input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.register-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.register-login-btn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
